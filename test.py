@@ -14,4 +14,7 @@ print(Value(10))
 print(e)
 
 print(a+b*c)
-print(a.__add__(b).__mul__(c))
+print(a.__add__(b).__mul__(c)) #internally it goes like a.__add__(b)
+
+e = a.__mul__(b)
+print(e)
