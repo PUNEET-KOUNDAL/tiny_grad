@@ -18,3 +18,5 @@ print(a.__add__(b).__mul__(c)) #internally it goes like a.__add__(b)
 
 e = a.__mul__(b)
 print(e)
+
+print(e._prev)
