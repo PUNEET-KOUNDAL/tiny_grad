@@ -1,0 +1,2 @@
+wikipedia for chain rule : https://en.wikipedia.org/wiki/Chain_rule
+andrej karpathy : https://github.com/karpathy/micrograd/blob/master/.gitignore
