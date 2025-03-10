@@ -3,6 +3,7 @@ class Value :
         self.data = data
         self._prev = set(_children)
         self._op = _op 
+        self.grad = 0
 
     def __repr__(self):
         return f" >> {self.data}"
