@@ -16,7 +16,12 @@ print(e)
 print(a+b*c)
 print(a.__add__(b).__mul__(c)) #internally it goes like a.__add__(b)
 
-e = a.__mul__(b)
+o = a.__mul__(b)
 print(e)
 
 print(e._prev)
+
+#After implementation of backward pass
+print("from here")
+o._grad = 1.0
+print(o._backward())
